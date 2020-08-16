@@ -1,0 +1,28 @@
+nav{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    
+}
+
+
+nav a{
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    transition: color 1s;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:gray;
+}
+
+nav .active{
+    color:gray;
+}

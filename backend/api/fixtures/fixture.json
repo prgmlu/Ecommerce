@@ -1,0 +1,127 @@
+[
+  
+    {
+      "model":"api.category",
+      "pk":"shoes",
+      "fields":{
+        "name": "shoes"
+      }
+    },
+    {
+      "model":"api.category",
+      "pk":"pants",
+      "fields":{
+        "name": "pants"
+      }
+    },
+    {
+      "model":"api.category",
+      "pk":"shirts",
+      "fields":{
+        "name": "shirts"
+      }
+    },
+
+  
+  {
+    "model": "api.product",
+    "pk": 1,
+    "fields": {
+    "category":"shoes",
+      "name": "koko",
+      "img": "https://pypi.org/static/images/logo-small.6eef541e.svg",
+      "price": 15
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 2,
+    "fields": {
+    "category":"shoes",
+      "name": "hummel",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/61utX8kBDlL.jpg",
+      "price": 15
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 3,
+    "fields": {
+    "category":"shirts",
+      "name": "lolo",
+      "img": "https://lp2.hm.com/hmgoepprod?set=quality[79],source[/40/2f/402f36a17e20d04fb437422c29a1639b1d9409c4.jpg],origin[dam],category[men_tshirtstanks_shortsleeve],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]",
+      "price": 15
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 4,
+    "fields": {
+    "category":"shirts",
+      "name": "nice shirt",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/61mSyjeYXWL._AC_UX522_.jpg",
+      "price": 15
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 5,
+    "fields": {
+    "category":"shoes",
+      "name": "sport red shoe",
+      "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+      "price": 1000
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 6,
+    "fields": {
+    "category":"shoes",
+      "name": "shit shoe",
+      "img": "https://images.pexels.com/photos/19090/pexels-photo.jpg",
+      "price": 7800
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 7,
+    "fields": {
+    "category":"shirts",
+      "name": "polo shirt",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/61FacUUNI8L._AC_UX466_.jpg",
+      "price": 15
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 8,
+    "fields": {
+    "category":"shirts",
+      "name": "awesome shirt",
+      "img": "https://images.usc.co.uk/images/products/54296801_l.jpg",
+      "price": 15
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 9,
+    "fields": {
+    "category":"pants",
+      "name": "male jeans pants",
+      "img": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/18/689071/1.jpg?6274",
+      "price": 15
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 10,
+    "fields": {
+    "category":"pants",
+      "name": "jeans pants",
+      "img": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/18/689071/1.jpg?6274",
+      "price": 15
+      
+    }
+  }
+]
